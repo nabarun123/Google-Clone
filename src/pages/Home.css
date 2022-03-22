@@ -1,0 +1,36 @@
+.home {
+  display: flex;
+  flex-direction: column;
+}
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  align-items: center;
+}
+.home-header-left {
+  display: flex;
+
+  align-items: center;
+}
+.home-header-left > p {
+  margin-right: 18px;
+}
+.home-header-right {
+  display: flex;
+  align-items: center;
+  min-width: 16vw;
+  justify-content: space-between;
+}
+.header-body > img {
+  object-fit: contain;
+  height: 200px;
+}
+.header-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
